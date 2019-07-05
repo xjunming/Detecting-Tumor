@@ -1,0 +1,99 @@
+Using TensorFlow backend.
+Image Count: 1770
+Class Count: 3
+  0. BG                                                
+  1. Positive                                          
+  2. Negative                                          
+Data description...
+H:\2019Teddy\Mask_RCNN-master\Detecting Tumor\dataset/train\1025\arterial phase\10014.dcm
+H:\2019Teddy\Mask_RCNN-master\Detecting Tumor\dataset/train\1032\venous phase\20021.dcm
+H:\2019Teddy\Mask_RCNN-master\Detecting Tumor\dataset/train\1018\venous phase\20010.dcm
+H:\2019Teddy\Mask_RCNN-master\Detecting Tumor\dataset/train\1095\arterial phase\10006.dcm
+molded_image             shape: (512, 512, 3)         min: -1024.00000  max: 1328.00000  float32
+mask                     shape: (512, 512, 1)         min:    0.00000  max:    1.00000  bool
+Total time: 13.6 seconds
+Image Count:  1770
+Height  mean: 512.00  median: 512.00  min: 512.00  max: 512.00
+Width   mean: 512.00  median: 512.00  min: 512.00  max: 512.00
+Color   mean (RGB): -778.98 -778.98 -778.98
+tumor/Image
+Image area <=  512**2:  mean: 1.0  median: 1.0  min: 1.0  max: 1.0
+Image area <= 512.0**2: None
+Image area <= 512.0**2: None
+WARNING:root:'augment' is deprecated. Use 'augmentation' instead.
+WARNING:root:'augment' is deprecated. Use 'augmentation' instead.
+WARNING:root:'augment' is deprecated. Use 'augmentation' instead.
+WARNING:root:'augment' is deprecated. Use 'augmentation' instead.
+
+*** No instances to display *** 
+
+
+*** No instances to display *** 
+
+
+*** No instances to display *** 
+
+
+*** No instances to display *** 
+
+image_id:  232 232
+Original shape:  (512, 512, 3)
+image                    shape: (512, 512, 3)         min: -1024.00000  max: 1044.00000  float32
+mask                     shape: (512, 512, 1)         min:    0.00000  max:    1.00000  bool
+class_ids                shape: (1,)                  min:    1.00000  max:    1.00000  int32
+bbox                     shape: (1, 4)                min:  232.00000  max:  376.00000  int32
+image                    shape: (512, 512, 3)         min: -1024.00000  max: 1179.00000  float32
+image_meta               shape: (15,)                 min:    0.00000  max:  512.00000  int32
+class_ids                shape: (1,)                  min:    1.00000  max:    1.00000  int32
+bbox                     shape: (1, 4)                min:  240.00000  max:  392.00000  int32
+mask                     shape: (512, 512, 1)         min:    0.00000  max:    1.00000  bool
+WARNING:root:'augment' is deprecated. Use 'augmentation' instead.
+mask                     shape: (56, 56, 1)           min:    0.00000  max:    1.00000  bool
+Count:  16368
+Scales:  (8, 16, 32, 64, 128)
+ratios:  [0.5, 1, 2]
+Anchors per Cell:  3
+Levels:  5
+Anchors in Level 0: 12288
+Anchors in Level 1: 3072
+Anchors in Level 2: 768
+Anchors in Level 3: 192
+Anchors in Level 4: 48
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Level 0. Anchors:  12288  Feature map Shape: [64 64]
+Level 1. Anchors:   3072  Feature map Shape: [32 32]
+Level 2. Anchors:    768  Feature map Shape: [16 16]
+Level 3. Anchors:    192  Feature map Shape: [8 8]
+Level 4. Anchors:     48  Feature map Shape: [4 4]
+rois                     shape: (4, 128, 4)           min:    0.00000  max:  255.00000  int32
+mrcnn_class_ids          shape: (4, 128, 1)           min:    0.00000  max:    1.00000  int32
+mrcnn_bbox               shape: (4, 128, 3, 4)        min:   -3.01498  max:    3.20927  float32
+mrcnn_mask               shape: (4, 128, 28, 28, 3)   min:    0.00000  max:    1.00000  float32
+gt_class_ids             shape: (4, 200)              min:    0.00000  max:    1.00000  int32
+gt_boxes                 shape: (4, 200, 4)           min:    0.00000  max:  256.00000  int32
+gt_masks                 shape: (4, 56, 56, 200)      min:    0.00000  max:    1.00000  bool
+rpn_match                shape: (4, 16368, 1)         min:   -1.00000  max:    1.00000  int32
+rpn_bbox                 shape: (4, 64, 4)            min:   -2.18750  max:    2.87262  float64
+image_id:  429 429
+anchors                  shape: (16368, 4)            min:  -90.50967  max:  282.50967  float64
+refined_anchors          shape: (1, 4)                min:    0.00000  max:  116.00000  float32
+Positive anchors: 1
+Negative anchors: 63
+Neutral anchors: 16304
+BG                     : 112
+Positive               : 16
+Positive ROIs:  16
+Negative ROIs:  112
+Positive Ratio: 0.12
+Unique ROIs: 128 out of 128
+   42  0.33
+   42  0.33
+    0  0.00
+   42  0.33
+   42  0.33
+   42  0.33
+   42  0.33
+   42  0.33
+   42  0.33
+   42  0.33
+Average percent: 0.30
